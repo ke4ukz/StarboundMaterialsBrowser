@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StarboundMaterials
+</name>
+</assembly>
+<members>
+<member name="M:StarboundMaterials.frmMain.UpdateStatus(System.String,System.Double)">
+	<summary>
+ Update the status and progress bar. Cross-thread safe.
+ </summary>
+	<param name="StatusText">Status text, or null char to not update status.</param>
+	<param name="Progress">Progress percentage (0-100), or less than zero to not update progress.</param>
+	<remarks></remarks>
+</member><member name="P:StarboundMaterials.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StarboundMaterials.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:StarboundMaterials.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
